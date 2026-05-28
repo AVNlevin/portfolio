@@ -69,7 +69,7 @@ export const HeroSection: React.FC = () => {
       </div>
 
       {/* Hero Portrait - z-10 absolutely centered */}
-      <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-none sm:pointer-events-auto">
+      <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[325px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0 pointer-events-none sm:pointer-events-auto">
         <FadeIn delay={0.6} y={30} className="w-full h-full flex justify-center">
           <Magnet
             padding={150}
@@ -81,7 +81,7 @@ export const HeroSection: React.FC = () => {
             <img
               src={`${import.meta.env.BASE_URL}avatar.png`}
               alt="Custom Portrait Avatar"
-              className="w-full h-auto object-contain select-none pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
+              className="w-full h-auto object-contain select-none pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] animate-float"
               draggable="false"
               loading="eager"
             />
