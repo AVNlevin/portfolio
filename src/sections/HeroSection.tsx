@@ -79,7 +79,7 @@ export const HeroSection: React.FC = () => {
             className="pointer-events-auto"
           >
             <img
-              src="/avatar.png"
+              src={`${import.meta.env.BASE_URL}avatar.png`}
               alt="Custom Portrait Avatar"
               className="w-full h-auto object-contain select-none pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
               draggable="false"
